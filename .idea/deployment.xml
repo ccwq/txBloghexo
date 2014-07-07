@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="idco.cc (1)">
+    <serverData>
+      <paths name="idco.cc (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/blog" local="$PROJECT_DIR$/cblog/public/" web="/blog" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
+
