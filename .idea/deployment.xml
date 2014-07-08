@@ -6,6 +6,7 @@
         <serverdata>
           <mappings>
             <mapping deploy="/blog" local="$PROJECT_DIR$/cblog/public/" web="/blog" />
+            <mapping deploy="/" local="$PROJECT_DIR$/root" web="/" />
           </mappings>
         </serverdata>
       </paths>

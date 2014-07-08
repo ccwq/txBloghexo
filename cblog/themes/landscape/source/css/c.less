@@ -1,0 +1,177 @@
+// It is a less file.
+@import "lessTool/tool";
+
+
+@lightColor1:#34495e;
+@lightColor2:#e74c3c;
+@bannerBackColor:#2980b9;
+@mianTextColor:#34495e;
+@whiteCl1:#ecf0f1;
+
+
+.widget-title{
+	letter-spacing:0;
+}
+
+#logo, #subtitle{
+	text-shadow:none;
+}
+
+//banner阴影去除
+#header:before, #header:after{ display: none;}
+
+
+
+#logo-wrap,#subtitle-wrap{
+	width: 360px;
+	margin: 0 auto;
+}
+
+//bannre主标题
+#logo-wrap{
+	@h:60px;
+	background: @whiteCl1;
+	.lineh(@h);
+	#logo {
+		font-weight: 700;
+		color: @bannerBackColor;
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: @h;
+		background: transparent;
+		letter-spacing: 6px;
+		border-radius: 0;
+		padding: 0;
+		font-size: 30px;
+		text-align: left;
+		text-indent: 9px;
+	}
+
+}
+
+//banner子标题
+#subtitle-wrap{
+	text-align: left;
+	text-shadow: none;
+	opacity: 0.8;
+	>a{
+		background-color: #bdc3c7;
+		color: @bannerBackColor;
+		letter-spacing: 0;
+		display: inline-block;
+		padding: 5px 8px;
+		padding-right: 36px;
+	}
+}
+
+
+
+
+//最顶部连接
+.nav-icon, .main-nav-link{
+	color: @whiteCl1;
+	opacity: 0.85;
+	text-shadow: none;
+	&:hover{
+		opacity: 1;
+		text-decoration: underline;
+	}
+}
+
+#banner{
+	background: @bannerBackColor;
+}
+
+.widget{
+	background: @bannerBackColor;
+	text-shadow: none;
+	border-radius: 0;
+	a,
+	.archive-list-count{
+		color: @whiteCl1;
+	}
+
+	a:hover{
+		color: #2ecc71;
+		text-shadow: none;
+	}
+	li{
+		border-bottom: 1px solid #418FC2;
+		.lineh(36px);
+		&:last-child{
+			border: none;
+		}
+	}
+}
+
+.article{
+	h3,h2{
+		color: #2c3e50;
+	}
+}
+
+
+//文章入口
+.article-entry a{
+	color: @lightColor2;
+}
+
+
+//文章标题颜色
+a.article-title{
+	color: @mianTextColor;
+	&:hover{
+		color: @lightColor1;
+		text-decoration: underline;
+	}
+}
+
+.article-entry pre, .article-entry .highlight{
+	background-color: #2980b9;
+}
+
+
+.article-inner, .archive-article-inner{
+	border-radius: 0;
+}
+
+#footer{
+	background-color: @bannerBackColor;
+	color: @whiteCl1;
+	a{
+		color: @whiteCl1;
+		text-decoration: underline;
+	}
+}
+
+.article-date, .article-category-link, .archive-year, .widget-title{
+	color: #95a5a6;
+}
+
+.article-entry{
+	color: #2c3e50;
+}
+
+.article-entry .highlight .gutter pre, .article-entry .gist .gist-file .gist-data .line-numbers{
+	color: #bdc3c7;
+}
+.article-date, .article-category-link, .archive-year, .widget-title{
+	margin-left: 0;
+}
+
+
+.article-footer{
+	border-top: 1px solid @bannerBackColor;
+}
+
+//去掉文章内容阴影
+.article-inner, .archive-article-inner{
+	box-shadow: none;
+}
+
+//搜索框
+.search-form{
+	border-radius: 0;
+	box-shadow: none;
+}
