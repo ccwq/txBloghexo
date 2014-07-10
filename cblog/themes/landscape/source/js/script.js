@@ -1,3 +1,5 @@
+window.$ = window.jQuery = Zepto;
+
 (function($){
   // Search
   var $searchWrap = $('#search-form-wrap'),

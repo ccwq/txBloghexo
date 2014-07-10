@@ -3,12 +3,12 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 大卫-前端博客
+title: 粟博-五谷杂粮
 subtitle: subool.com
 description:
 author: John Doe
 email:
-language: cn
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

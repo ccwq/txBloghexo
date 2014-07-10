@@ -1,0 +1,127 @@
+/* It is a less file. */
+.div_inline_block {
+  display: inline-block;
+}
+.div_inline_block {
+  *display: inline;
+}
+body {
+  font-family: "微软雅黑" "黑体" "新宋体";
+  padding-bottom: 90px;
+  color: #333333;
+  background-color: #f6f6f6;
+}
+h2,
+h4,
+h5 {
+  text-shadow: #CECECE 0px 0px 1px;
+}
+a {
+  color: #2980b9;
+  transition-duration: 330ms;
+}
+a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+.mainCont > h2 {
+  letter-spacing: 1em;
+}
+.info {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.info .indet {
+  margin-left: 25px;
+}
+.info .indet p {
+  text-indent: -1.4em;
+  padding-left: 1.4em;
+  line-height: 1.8em;
+}
+.info .indet p > i {
+  display: inline-block;
+  margin-right: 2px;
+}
+.info i {
+  position: relative;
+  top: 2px;
+  border-radius: 0;
+}
+.info h4 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 12px;
+  margin-bottom: 3px;
+}
+.intro ul {
+  list-style: none;
+}
+.intro ul li {
+  display: inline-block;
+  width: 24%;
+  margin-bottom: 6px;
+  margin-top: 4px;
+}
+.intro ul li {
+  *display: inline;
+}
+.intro i {
+  top: 3px;
+}
+.intro .itemLabel {
+  padding-right: 6px;
+}
+.skill h5 {
+  margin-top: 21px;
+  margin-bottom: 15px;
+  position: relative;
+  left: -12px;
+}
+.skill .skillLabel {
+  line-height: 3em;
+}
+.skill .skillLabel i {
+  font-style: normal;
+  padding: 7px 14px;
+  text-transform: capitalize;
+  transition-duration: 300ms;
+  top: 0;
+  display: inline-block;
+  margin: 0 5px;
+}
+.skill .skillLabel i:hover {
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+}
+.jobHistory .year {
+  display: inline-block;
+  width: 160px;
+  text-indent: 0;
+}
+.cl1 {
+  background-color: #3498db;
+}
+.cl2 {
+  background-color: #2980b9;
+}
+.cl3 {
+  background-color: #2ecc71;
+}
+.cl4 {
+  background-color: #2ecc71;
+}
+::selection {
+  background: #34495e;
+  color: #ffffff !important;
+}
+::-moz-selection {
+  background: #34495e;
+  color: #ffffff !important;
+}
+::-webkit-selection {
+  background: #34495e;
+  color: #ffffff !important;
+}
+.tmpHide {
+  visibility: hidden;
+}

@@ -1,12 +1,16 @@
 # Header
 menu:
   首页: ./
-  分类: archives
-rss: /atom.xml
+  归档: archives
+# rss: /atom.xml
+
+#
+open_graph: false
 
 # Content
 excerpt_link: Read More
 fancybox: false
+
 
 # Sidebar
 sidebar: right
@@ -23,7 +27,7 @@ links:
   热前端: http://reqianduan.com
   西瓜宝宝主题站: http://xiguabaobao.com
   一组不错的配色flat-ui: http://flatuicolors.com/
-  easy icon,这里有你需要的图标: http://www.easyicon.cn/
+  easy icon-这里有你需要的图标: http://www.easyicon.cn/
   西瓜宝宝主题站: http://xiguabaobao.com
 
 # Miscellaneous

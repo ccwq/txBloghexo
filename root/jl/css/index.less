@@ -1,0 +1,112 @@
+// It is a less file.
+@import "lessTool/tool";
+
+@font_cl:#333;
+body{font-family: "微软雅黑" "黑体" "新宋体"; padding-bottom: 90px; color: @font_cl; background-color: #f6f6f6;}
+
+h2,h4,h5{
+	text-shadow: #CECECE 0px 0px 1px;
+}
+
+a{
+	color: #2980b9;
+	.dura;
+	&:hover{
+		color: #3498db;
+		text-decoration: underline;
+	}
+}
+
+.mainCont{
+	>h2{ letter-spacing: 1em;}
+}
+
+.info{
+	margin-top: 24px;
+	margin-bottom: 30px;
+	.indet{
+		@val:1.4em;
+		margin-left: 25px;
+		p{
+			text-indent: -@val;
+			padding-left:@val;
+			line-height: 1.8em;
+
+			>i{ display: inline-block; margin-right: 2px;}
+
+		}
+
+	}
+	i{ position: relative; top: 2px; border-radius: 0;}
+
+	h4{border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 3px;}
+}
+
+.intro{
+	ul{
+		list-style: none;
+		//font-size: 0;
+		li{
+			//font-size: 14px;
+			display: inline-block; width: 24%;
+			margin-bottom: 6px; margin-top: 4px;
+		}
+
+		li{ *display: inline;}
+	}
+
+	i{top: 3px; }
+
+	.itemLabel{ padding-right: 6px;}
+}
+
+//标签
+.skill{
+	h5{
+		margin-top: 21px;
+		margin-bottom: 15px;
+		position: relative;
+		left: -12px;
+	}
+	.skillLabel{
+		line-height: 3em;
+		i{
+			font-style: normal; padding:7px 14px; text-transform: capitalize;
+			.dura(300ms);
+			&:hover{
+				._alpha(85);
+			}
+			top: 0;
+			display: inline-block;
+			margin: 0 5px;
+		}
+	}
+	//>.indet>p{ margin-left: 5px;}
+	.skilllist{
+
+	}
+}
+
+
+.jobHistory{
+	.year{ display: inline-block; width: 160px; text-indent: 0;}
+}
+
+//flat ui 颜色表
+.cl1{ background-color: #3498db;}
+.cl2{ background-color: #2980b9;}
+.cl3{ background-color: #2ecc71;}
+.cl4{ background-color: #2ecc71;}
+
+
+
+//已选颜色
+@cl1:#34495e;
+@cl2:#fff;
+::selection { background:@cl1; color:@cl2 !important; }
+::-moz-selection { background:@cl1; color:@cl2 !important; }
+::-webkit-selection { background:@cl1; color:@cl2 !important; }
+
+.tmpHide{
+	visibility: hidden;
+}

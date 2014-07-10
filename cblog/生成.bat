@@ -1,1 +1,2 @@
 hexo generate
+hexo publish
